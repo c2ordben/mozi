@@ -34,7 +34,7 @@ def bevetel(nezoterek):
                 osszeg += 2100
             if nezoterek[i][j] == 2500:
                 osszeg += 3500
-    print(osszeg, 'az összes bevétel')
+    print(osszeg, 'FT az összes bevétel')
 
 
 def TeremKihasznaltsag(nezoterek):
