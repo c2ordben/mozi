@@ -2,11 +2,11 @@ import random
 
 ar=[2500, 2100, 1300, 0]
 nezoterek=[]
-print('hány jegyet szeretne? (2-5)')
+print('hány jegyet szeretne? (2-5)', end=' ')
 a = int(input())
 
 while a > 5 or a < 2:
-    print('2-5db jegyet válasszon!')
+    print('2-5db jegyet válasszon!', end=' ')
     a = int(input())
 
 
